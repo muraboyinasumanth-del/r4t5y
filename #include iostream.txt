@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+    
+
+class Teacher
+{
+public :
+    // Data members
+    string name;
+    string dept;
+    int experince;
+    double salary;
+    
+    //constructor
+    Teacher()
+{
+    name = "M.sumanth";
+    dept = "cse";
+    experince = 10;
+   
+    
+    cout << "name :"<<"M.sumanth"<<endl;
+    cout << "dept :"<<"cse"<<endl;
+    cout << "experince :"<<10<<endl;
+    cout << "salary :"<<80000<<endl;
+}
+  
+
+};
+
+int main()
+{
+    //creating an object using default costructor
+    Teacher T1;
+    
+    
+    
+    
+
+    return 0;
+}

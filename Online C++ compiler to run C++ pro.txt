@@ -1,0 +1,56 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//class defination
+class car {
+    public:
+    string brand; //data member
+    string model;
+    int price;
+    int year;
+    
+     //member function 
+     void display() {
+         cout << "brand :" << brand <<endl;
+         cout << "model :" << model <<endl;
+         cout << "price :" << price <<endl;
+         cout << "year :" << year <<endl;
+         
+    };
+    
+};
+
+int main() {
+    //creating an object of the class
+    
+    
+       car car1; //creating an object of the
+        cout<<"enter the brand name: "<<endl;
+        // cin >> car1,brand;
+        getline(cin,car1.brand);
+        cout<<"enter the model name: "<<endl;
+        getline(cin,car1.model);
+        cout<<"enter the price: "<<endl;
+        cin>>car1.price;
+        cout<<"enter the man.f year: "<<endl;
+        cin >> car1.year;
+        car1.display();
+        
+        cin.ignore();
+        
+        car car2; //creating an object of the
+        cout<<"enter the brand name: "<<endl;
+        // cin >> car1,brand;
+        getline(cin,car2.brand);
+        cout<<"enter the model name: "<<endl;
+        getline(cin,car2.model);
+        cout<<"enter the price: "<<endl;
+        cin>>car2.price;
+        cout<<"enter the man.f year: "<<endl;
+        
+        cin >> car2.year;
+        car2.display();
+        
+    return 0;
+}

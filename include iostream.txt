@@ -1,0 +1,37 @@
+include <iostream>
+using namespace std;
+
+    
+
+class Teacher
+{
+public :
+    // Data members
+    string name;
+    string dept;
+    int experince;
+    int salary;
+    
+    //constructor
+    Teacher(string n,string d,int e,int s)
+{
+   
+
+    cout << "name :"<<n<<endl;
+    cout << "dept :"<<d<<endl;
+    cout << "experince :"<<e<<endl;
+    cout << "salary :"<<s<<endl;
+}
+
+};
+
+
+int main()
+{
+    //creating an object using default costructor
+    Teacher T1("Arib","CSE",10,75000);//Creat an object
+    Teacher T2("jrib","CSE",10,75000); 
+    
+    
+
+}

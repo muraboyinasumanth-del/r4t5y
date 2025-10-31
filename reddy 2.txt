@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()  
+{
+    int a= 10, b= 20;
+    cout<<" logical AND:"<< (a >8 && b< 25) << endl;
+    cout << "logical OR:" <<( a<0 || b>0) << endl;
+    cout << " logical NOT:" << !(b >12) <<endl;
+    
+
+    return 0;
+}

@@ -1,0 +1,7 @@
+functions in C++. 
+a function in a C++ is a group of statement that performs a specific task and can be reused anywhere in the programme.
+1.Reusability.
+2.Readability.
+3.Debugging.
+4.Modularity.
+5.Collaburation. 
